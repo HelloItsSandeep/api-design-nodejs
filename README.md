@@ -21,7 +21,7 @@ server.listen(3001, () => {
 
 ## Simplicity of Express.js
 
-Express.js is an abstraction over `http` module for handling client's http request. It supports middleware (enables the functionality of some task before sending response to the client).
+Express.js is an abstraction over `http` module for handling client's http request. It supports middleware (enables the functionality of doing some task before sending response to the client).
 
 Express.js simplify the code as compare to the built-in `http` module.
 
@@ -37,10 +37,3 @@ app.get("/", (req, res) => {
 
 app.listen(3001);
 ```
-
-# Tech Stack
-
-- Node.js: runtime environment (v22.13.0)
-- Express: framework for creating routes
-- Database: PostgreSQL, Prisma to interact with DB
-- Hosting: TBA
