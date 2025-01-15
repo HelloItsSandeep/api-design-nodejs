@@ -2,17 +2,20 @@
   "name": "api-design-nodejs",
   "version": "1.0.0",
   "description": "- Node.js: runtime environment - Express: framework for creating API - Database: PostgreSQL, Prisma to interact with DB",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^6.2.1",
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.10.6",
     "prisma": "^6.2.1",
     "ts-node": "^10.9.2",

@@ -37,3 +37,11 @@ app.get("/", (req, res) => {
 
 app.listen(3001);
 ```
+
+## Initialize Prisma
+
+```
+npx prisma init
+```
+
+It will create prisma/schema.prisma
